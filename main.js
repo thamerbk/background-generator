@@ -2,6 +2,7 @@ let boxs = document.querySelector(".boxs")
 let inputColor1 = document.getElementById("box1");
 let inputColor2 = document.getElementById("box2");
 let linear = document.querySelector(".linear");
+let btn = document.querySelector(".btn");
 
 
 // first way 1(without localStorage)
@@ -35,3 +36,8 @@ let linear = document.querySelector(".linear");
 
   inputColor1.addEventListener("input", colorChange);
   inputColor2.addEventListener("input", colorChange);
+
+  btn.onclick = function() {
+    window.localStorage.clear();
+    location.reload()
+  }
