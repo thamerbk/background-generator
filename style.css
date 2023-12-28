@@ -1,0 +1,27 @@
+* {
+  text-align: center;
+}
+
+body{
+  background: linear-gradient(to right, rgb(0, 255, 0), rgb(255, 0, 0));
+}
+
+.back .title {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 30px;
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.back .sm-title {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.50);
+}
+.back .linear {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.50);
+  margin: 30px;
+}
