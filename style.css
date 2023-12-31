@@ -9,7 +9,7 @@ body{
 .back .title {
   font-size: 50px;
   font-weight: bold;
-  letter-spacing: 30px;
+  letter-spacing: 3vw;
   color: rgba(0, 0, 0, 0.50);
 }
 
@@ -31,4 +31,10 @@ body{
   padding: 10px;
   font-size: 20px;
   border-radius: 5px;
+}
+
+@media(max-width: 526px) {
+  .back .title {
+    font-size: 34px;
+  }
 }
